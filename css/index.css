@@ -1,0 +1,59 @@
+/**************************************/
+/***************基本設定****************/
+/**************************************/
+
+body {
+    background: #000 url("../img/bg.jpg") no-repeat;
+}
+
+h5 {
+    font-family: serif;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+/**************************************/
+/***************貓咪圖文****************/
+/**************************************/
+
+.text {
+    margin: 50px 0;
+}
+
+.cat_yes {
+    position: relative;
+}
+
+.cat_no {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cat_no.hold {
+    display: none;
+}
+
+/**************************************/
+/***************文字提示****************/
+/**************************************/
+
+.hint {
+    position: relative;
+}
+
+.key {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+
+.key img {
+    width: 4.8%;
+    display: inline-block;
+}
+
+.key img.down {
+    transform: scale(0.9);
+}
